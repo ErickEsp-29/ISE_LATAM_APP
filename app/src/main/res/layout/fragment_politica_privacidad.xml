@@ -446,6 +446,7 @@ En el supuesto de que iSE-ACADEMY recopile y realice el tratamiento de los datos
                         app:layout_constraintHorizontal_bias="0.466"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"/>
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
