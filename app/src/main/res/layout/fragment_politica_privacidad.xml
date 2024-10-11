@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.PoliticaPrivacidadFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#0e364f"
+                android:padding="16dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:maxWidth="200dp"
+                        android:text="Politicas de Privacidad"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="26sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:maxWidth="200dp"
+                        android:text="Última actualización: 20 de octubre de 2021\n\nLa Política que a continuación se describe está alineada con la Ley No. 29733, (la “Ley de Protección de Datos personales”), el Decreto Supremo No. 003-2013-JUS por el que se aprueba su Reglamento y la Directiva de Seguridad de la Información (en adelante, “Regulación sobre de Protección de Datos Personales”)."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:layout_marginTop="70dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="280dp"
+                        android:maxWidth="200dp"
+                        android:text="1.- Responsable y descripción"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="330dp"
+                        android:maxWidth="200dp"
+                        android:text="1.1.- Responsable"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="380dp"
+                        android:maxWidth="200dp"
+                        android:text="El responsable del tratamiento de este sitio es iSE-ACADEMY (en adelante iSE-ACADEMY), con domicilio en Jirón Mariano Angulo 2720 Lima – Lima – Cercado de Lima, persona jurídica inscrita en registros públicos Sede Lima, según partida registral No. 14727684 y Registro Único de Contribuyentes. 20608276964\n\nCorreo electrónico: soporte@ise-academy.net , g.alejo@ise-peru.com"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:maxWidth="200dp"
+                        android:text="1.2.- Descripción"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="640dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="690dp"
+                        android:maxWidth="200dp"
+                        android:text="La aceptación de la política de privacidad de iSE-ACADEMY (en adelante “Política de Privacidad”), es condición necesaria para el uso de nuestra web y la prestación del servicio (en adelante el “Servicio”).\n\n
+Esta Política de Privacidad regula la recopilación, tratamiento y uso de tu información personal y no personal como usuario de iSE-ACADEMY, a partir de la fecha de entrada en vigor que aparece en el encabezado.\n\n
+Para tratar tus datos personales, iSE-ACADEMY cumple con la legislación vigente, local, así como su normativa de desarrollo. Por tanto, cuando accedes a los servicios brindados a través del Sitio Web https://ise-latam.com/ (en adelante, de manera conjunta “Plataforma“), aceptas sujetarte a las disposiciones de esta Política, aceptas que se recopile tu información personal a través de cuestionarios, encuestas, registros, formularios electrónicos, entre
+otros otorgados y/o requeridos virtualmente en la Plataforma, y autorizas a iSE-ACADEMY a hacer uso y realizar el tratamiento de toda la información que brinde a iSE-ACADEMY. Cabe mencionar, que la presente política forma parte integrante de los Términos y Condiciones."
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="1390dp"
+                        android:maxWidth="200dp"
+                        android:text="2.- Información recopilada"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="1440dp"
+                        android:maxWidth="200dp"
+                        android:text="El Servicio puede usarse sin necesidad de proporcionar ningún dato, si bien para obtener más información y contratar nuestros cursos necesitarás indicarnos algunos datos personales. La información (personal o no personal) recopilada por el Servicio puede variar en función de eso.\n\n
+La información personal y no personal recopilada por el Servicio nos llegará por tres vías: 1) la recopilada automáticamente, 2) la que nos proporciones voluntariamente y 3) la proporcionada por terceros."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:maxWidth="200dp"
+                        android:text="2.1.- La recopilada automáticamente"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="1710dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="1750dp"
+                        android:maxWidth="200dp"
+                        android:text="Esta información consistirá en:"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="1780dp"
+                        android:maxWidth="200dp"
+                        android:text="●    La recopilada mediante cookies o mecanismos similares almacenados en tu dispositivo, siempre con tu consentimiento o de acuerdo con otras bases legales. Consulta nuestra Cláusula de Cookies para más información.\n
+●    La IP desde la que se realiza la conexión, el tipo de dispositivo usado y sus características, la versión del sistema operativo, el tipo de navegador, el idioma, la fecha, el país, la hora de la solicitud, la URL desde la que procedes, la URL a la que marchas o la red móvil empleada, entre otros.\n
+●    Datos de uso del Servicio y posibles errores detectados durante su utilización.\n
+●    Además, iSE-ACADEMY utiliza servicios de terceros como:"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="2180dp"
+                        android:maxWidth="200dp"
+                        android:text="Google Analytics, un servicio analítico prestado por Google, LLC. con domicilio en los Estados Unidos con sede central en 1600 Amphitheatre Parkway, Mountain View, California 94043. Para la prestación de estos servicios, estos utilizan cookies que recopilan la información, incluida la dirección IP del usuario, que será transmitida, tratada y almacenada por Google en los términos fijados en la web www.google.com. Incluyendo la posible transmisión de dicha información a terceros por razones de exigencia legal o cuando dichos terceros procesen la información por cuenta de Google.\n\n
+En cualquier caso, puedes inhabilitar las cookies de Google Analytics desde aquí."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:maxWidth="200dp"
+                        android:text="2.2.- La que proporcionas voluntariamente"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="2510dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="2580dp"
+                        android:maxWidth="200dp"
+                        android:text="Esta información consistirá en:"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="2610dp"
+                        android:maxWidth="200dp"
+                        android:text="●    La requerida por iSE-ACADEMY para crear una nueva cuenta de usuario, y suscribirte a la plataforma: nombre y apellidos, país, perfil de usuario, correo electrónico y contraseña."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="2715dp"
+                        android:maxWidth="200dp"
+                        android:text="Todos los datos tienen carácter obligatorio.\n\n
+Si realizas un registro en nombre de otra persona a través del Servicio, garantizas haber obtenido de forma legítima la información personal y el consentimiento de esas otras personas antes de facilitarnos sus datos.\n\n
+En relación a la contraseña, como usuario del Servicio serás responsable de su protección. En ese sentido, asumirás cualquier daño y perjuicio que pudiera derivarse de su uso indebido o de la cesión de la misma a terceras personas."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="2975dp"
+                        android:maxWidth="200dp"
+                        android:text="●    La información, personal o no, que pudieran contener los mensajes enviados a través de los canales de contacto establecidos en el Servicio, por ejemplo nombre y apellidos, país, correo electrónico y mensaje.\n
+●    La información, personal o no, que pudieras facilitar en cuestionarios o encuestas a online que pueda organizar la plataforma, por ejemplo nombre y apellidos, país o correo electrónico\n
+●    La información, personal o no, que pudieras facilitar para inscribirte a cursos o webinars online gratuitos que pueda organizar la plataforma, por ejemplo nombre y apellidos, país o correo electrónico.\n
+●    La información, personal o no, que pudieras facilitar para inscribirte a cursos online de pago que pueda organizar la plataforma, por ejemplo nombre y apellidos, país, correo electrónico, cupón aplicable y datos de pago."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3450dp"
+                        android:maxWidth="200dp"
+                        android:text="Por datos de pago se entienden los datos de la tarjeta de crédito usada en el momento de contratar un servicio o mediante Paypal. En todo caso, ya sea el pago realizado a través de la plataforma Paypal, iSE-ACADEMY no almacena ninguno de esos datos."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3580dp"
+                        android:maxWidth="200dp"
+                        android:text="●    La información, personal o no, que pudieran contener los comentarios a los artículos de nuestro blog, por ejemplo, tu nombre, correo electrónico y mensaje.\n
+●    La información, personal o no, que pudieran contener las reseñas y valoraciones a alguno de los cursos de la web, por ejemplo, tu nombre, correo electrónico, mensaje, título y valoración.\n
+●    La información, personal o no, que pudieran contener las respuestas a nuestros cuestionarios, casos prácticos y otras actividades desarrolladas en los cursos reseñas, por ejemplo tu nombre, correo electrónico, mensaje, título y valoración.\n
+●    La información, personal o no, facilitada a la hora de contratar alguno de nuestros packs. Por ejemplo, nombre, apellidos, correo electrónico, cupón aplicable y datos de pago.\n
+●    La información, personal o no, facilitada para completar una suscripción o membresia. Por ejemplo, nombre, apellidos, correo electrónico, cupón aplicable y datos de pago.\n
+●    La requerida por ISE-ACADEMY para llevar a cabo tu alta como afiliado: nombre, apellidos, RUC, correo electrónico, domicilio, detalles del sitio web y datos de pago, entre otros.\n
+●    La información personal extra que debieras facilitar para recibir la certificación correspondiente al curso realizado y completado.\n
+●    Tu fotografía, nombre y apodo si decides participar en alguna de nuestras actividades en redes sociales o completar tu perfil."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4360dp"
+                        android:maxWidth="200dp"
+                        android:text="2.3.- La proporcionada por terceros"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:maxWidth="200dp"
+                        android:text="Esta información consistirá en:"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:layout_marginTop="4395dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4425dp"
+                        android:maxWidth="200dp"
+                        android:text="●    La proporcionada por sistemas de pago o procesadoras de tarjetas de crédito, como la hora de la compra o su importe.\n
+●    La proporcionada por redes sociales o servicios similares."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4570dp"
+                        android:maxWidth="200dp"
+                        android:text="3.- Derechos y finalidades"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4610dp"
+                        android:maxWidth="200dp"
+                        android:text="Te informamos que la cumplimentación de los formularios tiene carácter voluntario. Ahora bien, si no rellenas los campos obligatorios (marcados normalmente con un asterisco), el uso de algunas funciones del Servicio no será posible o se verá limitado.\n\n
+Los datos personales que nos facilites quedan incorporados y serán tratados en el Registro de Actividades de Tratamiento de iSE-ACADEMY con el fin de poder atender tus peticiones, prestar el servicio solicitado y mantenerte informado sobre cuestiones relativas a la actividad de la empresa y sus servicios.\n\n
+Puedes ejercer en cualquier momento los derechos de acceso, rectificación, supresión, oposición de tu tratamiento de tus datos de carácter personal mediante correo electrónico dirigido a:\n\n
+soporte@ise-academy.net\n\n
+Deberás identificarte con tu nombre y apellidos, además de una copia de tu DNI o Pasaporte nacional, si fuese necesario. El proceder de iSE-ACEDAMY ante el ejercicio de los Derechos Arco por parte del usuario está subordinado a las disposiciones y los plazos que establece el Marco Normativo de Protección de Datos Personales.\n\n
+En el caso de que hayas otorgado el consentimiento para alguna finalidad específica, tienes derecho a retirar el consentimiento en cualquier momento, sin que ello afecte a la licitud del tratamiento basado en el consentimiento previo a su retirada.\n\n
+Además, si consideras que hay un problema con la forma en que iSE-ACADEMY está manejando tus datos, puedes dirigir tus reclamaciones a la que corresponda, siendo la Autoridad Nacional de Protección de Datos la indicada en el caso de Perú.\n\n
+Sin perjuicio de lo anterior, iSE-ACADEMY podrá conservar determinada información del Usuario que solicita la baja, a fin de que sirva de prueba ante una eventual reclamación contra iSE-ACADEMY por responsabilidades derivadas del tratamiento de dicha información. La duración de dicha conservación no podrá ser superior al plazo de
+prescripción legal de dichas responsabilidades."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:maxWidth="200dp"
+                        android:text="4.- Edad"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5660dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5700dp"
+                        android:maxWidth="200dp"
+                        android:text="En cuanto al uso del servicio online, declaras que eres mayor de edad y que dispones de la capacidad legal necesaria para vincularte por este acuerdo y utilizar el sitio de conformidad con sus términos y condiciones, que comprendes y reconoce en su totalidad.\n\n
+Declaras que toda la información que proporcione(n) para acceder al Servicio, antes y durante su utilización, es verdadera, completa y precisa.\n\n
+En el supuesto de que iSE-ACADEMY recopile y realice el tratamiento de los datos personales de menores de edad, necesarios e indispensables para el desarrollo de la relación contractual con el usuario menor de edad; iSE-ACADEMY informará al titular del dato personal y/o a su tutor legal, sobre las finalidades del tratamiento de los datos personales, conforme con lo establecido en el artículo 14 de la Ley de Protección de Datos Personales."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="7770dp"
+                        android:maxWidth="200dp"
+                        android:text="iSE-ACADEMY se reserva el derecho de rescindir o suspender el acceso al Servicio, y en cualquier momento, si el usuario con la cuenta principal no cumple con las disposiciones establecidas en el presente documento."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="7890dp"
+                        android:maxWidth="200dp"
+                        android:text="3.4.2 Condiciones de uso de las membresías"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="7950dp"
+                        android:maxWidth="200dp"
+                        android:text="Podrás probar cualquiera de las membresías con una tarifa promocional habilitada por 30 días por y por única vez. Pasado ese tiempo, y a menos que canceles tu suscripción, nos autorizas a cargar la cuota de suscripción a la Membresía que hayas escogido según el medio de pago seleccionado.\n\nPuedes cancelar tu suscripción al Servicio cuando quieras, y seguirás teniendo acceso al mismo hasta el final de tu periodo de facturación. En la medida en que lo permita la ley, los pagos no son reembolsables y no facilitamos devoluciones ni abonos por períodos totales ni parciales de la suscripción.\n\niSE-ACADEMY podrá modificar las membresías y/o sus tarifas si lo considera pertinente. Sin embargo, cualquier modificación en las tarifas o en sus membresías serán notificadas al correo electrónico del usuario y/o a través de la Plataforma."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="8380dp"
+                        android:maxWidth="200dp"
+                        android:text="●    Renovación.- Las Membresías son renovables de manera automática, según el tipo de membresía (anual, mensual), por lo que si no deseas renovar podrás realizar lo siguiente: (1) acceder al panel de configuración de Usuario desde nuestra Plataforma, en la cual habrá una opción para cancelar la autorrenovación del Servicio; o (2) escribir a soporte@ise-academy.net hasta 48 horas antes de su vencimiento. \n●    Cancelación.- El Usuario podrá cancelar su membresía cuando lo considere conveniente. Si se cancela, perderá acceso a todos los cursos de especialización a los cuales se haya inscrito. Si decide pagar nuevamente recuperará el acceso a los cursos inscritos. \n●    Cambios de membresía.- El usuario podrá cambiarse de membresía si lo considera conveniente, de ser así, en caso, no haya finalizado el periodo de esta, se generarán las siguientes consecuencias dependiendo de la nueva membresía que el usuario elija: \n   - Si elige una membresía con una tarifa menor: el usuario deberá esperar que termine el plazo de su membresía para realizar el cambio. \n   - Si elige una membresía con una tarifa mayor: se sumará el plazo restante de la membresía anterior a la nueva membresía elegida."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="9045dp"
+                        android:maxWidth="200dp"
+                        android:text="Por último, si trabajas para una compañía o empresa y quieres realizar varias suscripciones a la vez, por favor contacta con nosotros para informarte si hubiera descuentos existentes para esta modalidad y nuestros planes corporativos en:"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="9170dp"
+                        android:maxWidth="200dp"
+                        android:text="soporte@ise-academy.net"
+                        android:textColor="#FFCD14"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="9210dp"
+                        android:maxWidth="200dp"
+                        android:text="3.4.2.- Condiciones de uso de los cursos gratuitos"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="9265dp"
+                        android:maxWidth="200dp"
+                        android:text="Podrás tener acceso a los cursos que iSE comunique que se encuentran disponibles de manera gratuita; sin embargo, este acceso gratuito no incluye el acceso a la certificación del curso el cuál tendrá un costo que iSE lo establecerá. El tiempo de acceso a estos cursos gratuitos será de 14 días."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="9420dp"
+                        android:maxWidth="200dp"
+                        android:text="3.4.3.- Condiciones de uso de los recursos educativos gratuitos"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="9475dp"
+                        android:maxWidth="200dp"
+                        android:text="Se entiende por recursos educativos a plantillas en excel, vídeos de corta duración, ejercicios prácticos. Podrás tener acceso a estos recursos cuando iSE comunique que se encuentran disponibles de manera gratuita, el brindar estos recursos no compromete a iSE a enseñarle a usar estas herramientas. El tiempo que dispondrán los interesados en descargar los recursos educativos serán de acuerdo al tiempo que iSE menciona en sus página web."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="9690dp"
+                        android:maxWidth="200dp"
+                        android:text="4.- Enlaces externos"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView39"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="9730dp"
+                        android:maxWidth="200dp"
+                        android:text="Puede que desde el Servicio se te envíe a otros sitios web a través de enlaces.\n\nSin embargo, iSE-ACADEMY no controla esos sitios o su contenido, que de hecho están sujetos a sus propios términos y condiciones. Por tanto, iSE-ACADEMY no es responsable de la calidad, veracidad o exactitud de esos sitios."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="9910dp"
+                        android:maxWidth="200dp"
+                        android:text="5.- Edad"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView41"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="9950dp"
+                        android:maxWidth="200dp"
+                        android:text="En cuanto al uso del Servicio, declaras que eres mayor de edad y que dispones de la capacidad legal necesaria para vincularse por este acuerdo, y utilizarlo de conformidad con sus términos y condiciones, que comprendes y reconocer en su totalidad.\n\nSi contratas el Servicio en nombre de una empresa, reconoces disponer de autorización y la representación adecuada en nombre de la organización para ello.\n\nDeclaras que toda la información que proporciones para acceder al Servicio, antes y durante su utilización, es verdadera, completa y precisa."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10280dp"
+                        android:maxWidth="200dp"
+                        android:text="6.- Propiedad intelectual\n\n6.1.- Propiedad industrial"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView43"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10360dp"
+                        android:maxWidth="200dp"
+                        android:text="El contenido y la información del Servicio (entre otros datos, texto, sonido, vídeo, imagen o código informático), así como la infraestructura utilizada para proporcionar tal contenido e información, es propiedad de iSE-ACADEMY o bien dispone de las autorizaciones correspondientes para su uso. por tanto, están protegidos por las leyes y los tratados internacionales en materia de derechos de autor, marcas, patentes, modelos y diseños industriales aplicables en Perú, sin importar que se encuentren o no registrados.\n\nAdemás, se prohíbe la modificación, reproducción, duplicación, impresión, copia, distribución, venta, reventa y demás formas de explotación para fines comerciales o equivalentes del Servicio, sin el previo consentimiento expreso y por escrito de iSE-ACADEMY o, en su caso, del titular de los derechos de propiedad intelectual. El incumplimiento de lo aquí mencionado sujetará al infractor a todos los reclamos civiles y será materia para la presentación de la querella, la denuncia o la reclamación procedente ante las autoridades competentes, dentro de la cual se proporcionará la información necesaria para la investigación y persecución del ilícito del que se trate. Para cualquier otro uso del contenido del Servicio necesitas nuestro consentimiento previo por escrito."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10970dp"
+                        android:maxWidth="200dp"
+                        android:text="6.2.- Derechos de Autor"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="11010dp"
+                        android:maxWidth="200dp"
+                        android:text="Todos los derechos de autor involucrados en la Plataforma, como por ejemplo su contenido y su diseño visual, son de titularidad de iSE-ACADEMY y/o de sus proveedores, por lo que se encuentra estrictamente prohibido su empleo, modificación, reproducción, distribución, transmisión o comercialización de los derechos involucrados sin el permiso previo, expreso y por escrito de los titulares de dichos derechos, salvo los casos de derechos de cita,
+empleo para finalidades educativas y los demás usos honrados reconocidos."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView46"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="11265dp"
+                        android:maxWidth="200dp"
+                        android:text="7.- Contenido de Usuario\n\n7.1.- Contenido"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView47"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="11350dp"
+                        android:maxWidth="200dp"
+                        android:text="Puedes contribuir al Servicio enviándonos mensajes a nuestra dirección de correo electrónico, a través del formulario de contacto, dejando comentarios en nuestros artículos, publicando reseñas y valoraciones, interviniendo en nuestro foro de debates o bien enviando mensajes a través del sistema de mensajería de la plataforma (en adelante “Contenido”).\n\nPodemos usar tu Contenido de distintas maneras, tales como: mostrarlo en el sitio web, reformatearlo, traducirlo a otros idiomas, editarlo para aportar claridad, corregir errores, promocionarlo o distribuirlo.\n\nPor tanto, al enviarnos Contenido concedes a iSE-ACADEMY una licencia de uso mundial, no exclusiva, gratuita, hasta la retirada del contenido, transferible y sublicenciable sobre ese Contenido.\n\nEso significa que el contenido sigue siendo tuyo pero iSE-ACADEMY, gracias a esa licencia de uso, puede: a) usar, reproducir, modificar, adaptar, traducir, distribuir y publicar el Contenido, crear obras derivadas a partir de él, mostrarlo y exhibirlo en todo el mundo, por cualquier medio conocido y para cualquier fin legítimo; y b) usar el nombre que envíes en relación con ese Contenido.\n\nNo obstante, iSE-ACADEMY se reserva el derecho de no publicar aquellos contenidos o informaciones que sean falsas o contrarias a los derechos de terceros."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView48"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12050dp"
+                        android:maxWidth="200dp"
+                        android:text="7.2.- Actividades prohibidas"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView49"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12090dp"
+                        android:maxWidth="200dp"
+                        android:text="Además, te comprometes a no realizar ninguno de los actos siguientes:"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView50"
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12140dp"
+                        android:maxWidth="200dp"
+                        android:text="●    Acceder, supervisar o copiar contenido o información de este sitio web mediante el uso de robots, rastreadores, raspadores de datos o cualquier otro medio automatizado que permitan acceder, rastrear, indexar, recuperar o utilizar de cualquier otro modo el sitio web o su contenido para cualquier propósito sin el permiso explícito por escrito de iSE ACADEMY; \n●    Insertar, reflejar o incorporar de algún otro modo una parte de este sitio web en otro sin nuestra autorización previa por escrito; \n●    Intentar modificar, traducir, adaptar, editar, descompilar, desensamblar o aplicar ingeniería inversa a ningún programa de software que iSE-ACADEMY utilice en relación con el sitio web; \n●    Usar el sitio web para amenazar, acosar, defraudar, incitar, hostigar a otras personas o defender el hostigamiento de otra persona, o interferir de cualquier otro modo con el uso del sitio web por parte de otro usuario; \n●    Usar el sitio web para enviar o transmitir correo no deseado (“spam”), cadenas de mensaje, concursos, “correo basura”, sistemas piramidales, encuestas u otros mensajes masivos, ya sean de naturaleza comercial o no; \n●    Utilizar el sitio web para infringir derechos de terceros, lo que incluye el quebrantamiento de la confianza y la infracción de copyright, marcas comerciales, patentes, secretos comerciales, derechos morales, derechos de privacidad o cualesquiera otros derechos de propiedad intelectual o de propiedad; \n●    Intentar obtener acceso no autorizado al sitio web, los sistemas informáticos o las redes conectadas al sitio web mediante prácticas de piratería informática, extracción de contraseñas o cualquier otro medio. Así como la transmisión de virus informáticos, gusanos, defectos, troyanos u otros elementos de naturaleza destructiva; \n●    Utilizar algún dispositivo, software o rutina que interfiera con el funcionamiento correcto y las medidas de seguridad del sitio web."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="13220dp"
+                        android:maxWidth="200dp"
+                        android:text="7.3.- Espacios de opinión"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView52"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="13260dp"
+                        android:maxWidth="200dp"
+                        android:text="iSE-ACADEMY proporciona áreas de opinión que están también sujetas a estas Condiciones de Uso y Contratación.\n\nComo usuario del servicio serás el único responsable del uso que hagas de ellas y las utilizarás por tu cuenta y riesgo. iSE-ACADEMY no editará ni controlará los contenidos de los usuarios publicados o distribuidos en el sitio web ni asumirá responsabilidad ni obligación alguna por dichos mensajes de los usuarios, más allá de lo previsto legalmente.\n\nNo obstante, iSE-ACADEMY se reserva el derecho de eliminar los mensajes y el contenido de los usuarios. En esas áreas de debate no podrás publicar ningún contenido que sea falso, ilegal, engañoso, injurioso, difamatorio, obsceno, pornográfico, indecente, acosador, intimidatorio, contrario a los derechos de privacidad o publicidad, abusivo o fraudulento.\n\nComo usuario de iSE-ACADEMY manifiestas que eres el propietario o que posees los permisos necesarios para usar y autorizar el uso del contenido compartido en el Servicio conforme a lo descrito.\n\nEn todo caso, recuerda que al acceder o usar el sitio web podrás verte expuesto a contenido de otros usuarios que podría ser ofensivo, obsceno, impreciso, censurable o inadecuado por cualquier otra razón. iSE-ACADEMY no suscribe dicho contenido ni puede refrendar su precisión."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView53"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="13950dp"
+                        android:maxWidth="200dp"
+                        android:text="8.- Precio e impuestos"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView54"
+                        android:layout_width="340dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="13990dp"
+                        android:maxWidth="200dp"
+                        android:text="Los precios de los cursos ofertados en iSE-ACADEMY están indicados en dólares ($), incluyendo el precio, los impuestos correspondientes vigentes en el momento de la compra. En caso de duda o si quieres plantearnos algún supuesto concreto en este caso, escríbenos a:\n\nsoporte@ise-academy.net\n\niSE-ACADEMY es una empresa constituida en Perú, por lo que es posible que se apliquen impuestos propios según país por compras en plataformas extranjeras y que deberán ser asumidos por los usuarios finales. En todo caso, si en función de tu país de residencia o la condición en la que actúas, consideras que la operación podría estar exenta o no sujeta a IGV deberás indicarlo remitiendo por correo electrónico su número de RUC/NIF/NIT a: soporte@ise-academy.net, a fin de no grabar las compras con dicho impuesto y/o devolver la parte proporcional que corresponda."
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

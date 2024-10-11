@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/grupo1">
+        <item
+            android:id="@+id/nav_desarrollo"
+            android:title="Desarrollo"
+            android:icon="@drawable/icono_desarrollo"/>
+
+        <item
+            android:id="@+id/nav_proyectos"
+            android:title="Proyectos"
+            android:icon="@drawable/icono_proyectos"/>
+
+        <item
+            android:id="@+id/nav_toolbox"
+            android:title="Toolbox"
+            android:icon="@drawable/icono_toolbox"/>
+
+        <item
+            android:id="@+id/nav_millionMiners"
+            android:title="One Million Miners"
+            android:icon="@drawable/icono_onemillionminers"/>
+    </group>
+
+    <group
+        android:id="@+id/grupo2">
+
+        <item
+            android:id="@+id/nav_conocenos"
+            android:title="Sobre Nosotros"
+            android:icon="@drawable/icono_conocenos"/>
+
+        <item
+            android:id="@+id/nav_preguntasfrecuentes"
+            android:title="Preguntas Frecuentes"
+            android:icon="@drawable/icono_preguntasfrecuentes"/>
+
+        <item
+            android:id="@+id/nav_politicaPrivacidad"
+            android:title="Politica y Privacidad"
+            android:icon="@drawable/icono_politicaprivacidad"/>
+
+        <item
+            android:id="@+id/nav_terminosCondiciones"
+            android:title="Terminos y Condiciones"
+            android:icon="@drawable/icono_terminoscondiciones"/>
+
+        <item
+            android:id="@+id/nav_ajustes"
+            android:title="Ajustes"
+            android:icon="@drawable/icono_ajustes"/>
+
+    </group>
+</menu>

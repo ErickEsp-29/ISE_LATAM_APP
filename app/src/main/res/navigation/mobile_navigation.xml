@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ise.latam.ise_mobile.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.ise.latam.ise_mobile.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.ise.latam.ise_mobile.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.ise.latam.ise_mobile.fragmentos.InicioFragment"
+        android:label="InicioFragment" />
+    <fragment
+        android:id="@+id/nav_ajustes"
+        android:name="com.ise.latam.ise_mobile.fragmentos.AjustesFragment"
+        android:label="fragment_ajustes"
+        tools:layout="@layout/fragment_ajustes" />
+    <fragment
+        android:id="@+id/nav_conocenos"
+        android:name="com.ise.latam.ise_mobile.fragmentos.ConocenosFragment"
+        android:label="fragment_conocenos"
+        tools:layout="@layout/fragment_conocenos" />
+    <fragment
+        android:id="@+id/nav_desarrollo"
+        android:name="com.ise.latam.ise_mobile.fragmentos.DesarrolloFragment"
+        android:label="fragment_desarrollo"
+        tools:layout="@layout/fragment_desarrollo" />
+    <fragment
+        android:id="@+id/nav_favorito"
+        android:name="com.ise.latam.ise_mobile.fragmentos.FavoritosFragment"
+        android:label="fragment_favoritos"
+        tools:layout="@layout/fragment_favoritos" />
+    <fragment
+        android:id="@+id/nav_miCuenta"
+        android:name="com.ise.latam.ise_mobile.fragmentos.MiCuentaFragment"
+        android:label="fragment_mi_cuenta"
+        tools:layout="@layout/fragment_mi_cuenta" />
+    <fragment
+        android:id="@+id/nav_millionMiners"
+        android:name="com.ise.latam.ise_mobile.fragmentos.MillionMinersFragment"
+        android:label="fragment_million_miners"
+        tools:layout="@layout/fragment_million_miners" />
+    <fragment
+        android:id="@+id/nav_politicaPrivacidad"
+        android:name="com.ise.latam.ise_mobile.fragmentos.PoliticaPrivacidadFragment"
+        android:label="fragment_politica_privacidad"
+        tools:layout="@layout/fragment_politica_privacidad" />
+    <fragment
+        android:id="@+id/nav_preguntasfrecuentes"
+        android:name="com.ise.latam.ise_mobile.fragmentos.PreguntasFragment"
+        android:label="fragment_preguntas"
+        tools:layout="@layout/fragment_preguntas" />
+    <fragment
+        android:id="@+id/nav_toolbox"
+        android:name="com.ise.latam.ise_mobile.fragmentos.ToolboxFragment"
+        android:label="fragment_toolbox"
+        tools:layout="@layout/fragment_toolbox" />
+    <fragment
+        android:id="@+id/nav_terminosCondiciones"
+        android:name="com.ise.latam.ise_mobile.fragmentos.TerminosCondicionesFragment"
+        android:label="fragment_terminos_condiciones"
+        tools:layout="@layout/fragment_terminos_condiciones" />
+    <fragment
+        android:id="@+id/nav_proyectos"
+        android:name="com.ise.latam.ise_mobile.fragmentos.ProyectosFragment"
+        android:label="fragment_proyectos"
+        tools:layout="@layout/fragment_proyectos" />
+    <fragment
+        android:id="@+id/nav_misCompras"
+        android:name="com.ise.latam.ise_mobile.fragmentos.MisComprasFragment"
+        android:label="fragment_mis_compras"
+        tools:layout="@layout/fragment_mis_compras" />
+    <fragment
+        android:id="@+id/nav_misCursos"
+        android:name="com.ise.latam.ise_mobile.fragmentos.MisCursosFragment"
+        android:label="fragment_mis_cursos"
+        tools:layout="@layout/fragment_mis_cursos" />
+</navigation>

@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.MillionMinersFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/topSquare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#0e364f"
+                android:padding="16dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:src="@drawable/miners1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="310dp"
+                        android:maxWidth="200dp"
+                        android:text="1 millón de personas transcendiendo e inspirando el crecimiento del sector minero moderno en Latinoamérica.\n\nHasta la fecha somos: 11120 personas"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="350dp"
+                        android:layout_height="48dp"
+                        android:background="#FFCD14"
+                        android:text="Revive nuestras activaciones virtuales aqui"
+                        android:textColor="@color/principal"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textAllCaps="false"
+                        android:layout_marginTop="440dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="53dp"
+                        android:layout_marginTop="490dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="¿Cómo lo hacemos?"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <View
+                        android:id="@+id/topSquare4"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:background="@drawable/rectangulo_miners"
+                        android:layout_marginTop="590dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <View
+                        android:id="@+id/topSquare5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/circulo_miners"
+                        android:layout_marginTop="550dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="555dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="01"
+                        android:textColor="@color/principal"
+                        android:textSize="50sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="650dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="Potenciamos talento otorgando licencias académicas a las universidades."
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <View
+                        android:id="@+id/topSquare6"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@drawable/rectangulo_miners"
+                        android:layout_marginTop="790dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <View
+                        android:id="@+id/topSquare7"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/circulo_miners"
+                        android:layout_marginTop="750dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="755dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="02"
+                        android:textColor="@color/principal"
+                        android:textSize="50sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="850dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="Visibilizamos la industria minera masivamente mediante diversos programas."
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <View
+                        android:id="@+id/topSquare8"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@drawable/rectangulo_miners"
+                        android:layout_marginTop="1000dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <View
+                        android:id="@+id/topSquare9"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/circulo_miners"
+                        android:layout_marginTop="960dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="965dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="03"
+                        android:textColor="@color/principal"
+                        android:textSize="50sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="1060dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="Sumamos aliados, universidades, org. estudiantiles, instituciones, empresas y el estado."
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.466"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="53dp"
+                        android:layout_marginTop="1160dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="¿Cómo lo hacemos?"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="370dp"
+                        android:layout_height="260dp"
+                        android:src="@drawable/miners2"
+                        android:layout_marginTop="1220dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="1490dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="Empresas que confiaron en nosotros"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="370dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/miners3"
+                        android:layout_marginTop="1560dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="1720dp"
+                        android:maxWidth="200dp"
+                        android:text="Creciendo Profesionalmente en Minería"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="1780dp"
+                        android:maxWidth="200dp"
+                        android:text="Activaciones Presenciales 2023"
+                        android:textColor="#FFCD14"
+                        android:textSize="22sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="370dp"
+                        android:layout_height="270dp"
+                        android:src="@drawable/miners4"
+                        android:layout_marginTop="1830dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="2110dp"
+                        android:maxWidth="200dp"
+                        android:text="Conoce nuestras"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="2145dp"
+                        android:maxWidth="200dp"
+                        android:text="Activaciones Virtuales 2023"
+                        android:textColor="#FFCD14"
+                        android:textSize="22sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="370dp"
+                        android:layout_height="270dp"
+                        android:src="@drawable/miners5"
+                        android:layout_marginTop="2200dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="2490dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="Empresas que participaron"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="370dp"
+                        android:layout_height="270dp"
+                        android:src="@drawable/miners6"
+                        android:layout_marginTop="2540dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="2840dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="Aliados Institucionales"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="370dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/miners7"
+                        android:layout_marginTop="2880dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/topSquare2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#07293E"
+                android:orientation="vertical"
+                android:padding="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/topSquare">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="Conoce más sobre la iniciativa"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <View
+                        android:id="@+id/topSquare10"
+                        android:layout_width="match_parent"
+                        android:layout_height="640dp"
+                        android:layout_marginTop="80dp"
+                        android:background="@drawable/rectangulo_amarillo_miners"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="330dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="100dp"
+                        android:maxWidth="200dp"
+                        android:text="¿Qué son las licencias académicas?"
+                        android:textColor="#111111"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="330dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="170dp"
+                        android:maxWidth="200dp"
+                        android:text="Accede a +200 hora de capacitación gratuita en minería y +100 recursos especializados."
+                        android:textColor="#111111"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="350dp"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="250dp"
+                        android:background="#07293E"
+                        android:text="Obtén un demo"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <View
+                        android:id="@+id/topSquare11"
+                        android:layout_width="350dp"
+                        android:layout_height="390dp"
+                        android:layout_marginTop="310dp"
+                        android:background="@drawable/rectangulo_miners"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="310dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="340dp"
+                        android:maxWidth="200dp"
+                        android:text="Características claves de la licencia académica"
+                        android:textColor="#FFCD14"
+                        android:textSize="22sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="310dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="400dp"
+                        android:maxWidth="200dp"
+                        android:text="Beneficio exclusivo para universidades y organizaciones estudiantiles con las que tenemos alianzas, donde nuestros miembros podrán acceder a nuestro software y contenido especializado en la industria minera."
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="310dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="560dp"
+                        android:maxWidth="200dp"
+                        android:text="✓    Gratuito \n✓    Flexibilidad horaria \n✓    Docentes expertos \n✓    Comunidad colaborativa \n✓    Certificado de finalización"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <View
+                        android:id="@+id/topSquare12"
+                        android:layout_width="match_parent"
+                        android:layout_height="640dp"
+                        android:layout_marginTop="780dp"
+                        android:background="@drawable/rectangulo_principal_miners"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="800dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="¿Por qué apoyar esta iniciativa?"
+                        android:textColor="#FFCD14"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="330dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="850dp"
+                        android:maxWidth="200dp"
+                        android:text="1.	Es una forma en como diferentes empresas se unen para impulsar un propósito de hacer crecer minería en todo LATAM.\n\n2.	Es una forma distinta de sumarnos y apoyar a profesionales jóvenes para comunicar la minería de una forma que active.\n\n3.	Es una forma para hacer sentir el mensaje de la minería moderna en LATAM, alentando la creación de nuevos proyectos mineros.\n\n4.	Es una forma diferente de como podemos usar medios digitales para impulsar el conocimiento de la minería en LATAM.\n\n5.	Esta es una iniciativa que aporta en los ODS: Objetivo 4: Educación de calidad, objetivo 9: Industria, innovación e infraestructura, objetivo 13: Acción por el clima, objetivo 17: Alianzas para lograr los objetivos."
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <View
+                        android:id="@+id/topSquare13"
+                        android:layout_width="match_parent"
+                        android:layout_height="460dp"
+                        android:layout_marginTop="1490dp"
+                        android:background="@drawable/rectangulo_principal_miners"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="1500dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="¿Qué necesitamos para lograrlo?"
+                        android:textColor="#FFCD14"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="330dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="1550dp"
+                        android:maxWidth="200dp"
+                        android:text="1.	Equipo que se dedique a tiempo completo en esta iniciativa.\n\n2.	Marca y marketing diario, masivo en todas las redes de difusión.\n\n3.	Recursos financieros, para seguir donando licencias académicas de nuestro software y para poder expandir el Bootcamp Mining para inicios del 2024, y sigamos trasmitiendo de manera presencial, llenando auditorios en diversas universidades del pais y LATAM.\n\n4.	Aliados que crean en esta iniciativa y puedan sumarse a lograr los distintos objetivos propuestos."
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#0e364f"
+                android:padding="16dp"
+                app:layout_constraintTop_toBottomOf="@id/topSquare2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="Si eres una empresa y estas dispuesto a apoyar con financiamiento y recursos a este proyecto"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="140dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="Contáctate con nosotros:"
+                        android:textColor="#FFCD14"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="180dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="Bruno Luciano Marcos Villanueva"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="210dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="Jefe LATAM de Innovación en iSE"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="240dp"
+                        android:gravity="center"
+                        android:maxWidth="200dp"
+                        android:text="Correo: bruno.marcos@ise-peru.com"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.472"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
